@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Background Information</h1>
+						<p>Background information on the Unabomber used for this report</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+								<h2>Natural Language Processing</h2>
+								<p>Natural Language Processing, or NLP, is the overlap of Computer Science and Linguistics that focuses on using computers to better understand human language. Language can be broken down into patterns – think sentence trees or conjugating verbs – and with those patterns, as well as statistical and machine learning modules, we can train computers to start “understanding” and analyzing human speech. Natural language processing is much more common than you may realize, as it is used for many voice recognition systems, such as voice activated GPS, robo-calls, online customer service chats, and virtual assistants such as Siri and Alexa. One recent, fairly recognizable example of NLP is Chat GPT, which allows users to ask questions and have conversations with the AI Chat GPT. These conversations often sound impressively human. Using natural language processing, computers are able to process language similar to the way humans can. To do this, words and documents need to be broken down into smaller pieces computers can understand. This is called tokenization. There are many different types of tokenization, but we will be working specifically with sentence and word tokenization. Sentence tokenization takes a literary work and breaks it down by sentence. This is generally done by examining end punctuation. Word tokenization breaks down paragraphs or other written works by word, which is done by looking at where spaces appear.</p>
+								<h2>Motivation</h2>
+								<p>NLP has many uses, but one of the most interesting uses we found for it is Forensic Linguistics. Forensic Linguistics is the overlap of forensic science – using science to gather evidence in criminal cases, like DNA or fingerprints – and linguistics. One part of forensic linguistics is proving authorship. A linguistic expert, or team of linguistic experts, is given writing by an unknown author as well as writings from a suspect or suspects. The experts then use aspects of the suspects’ writings and compare them to the aspects of the unknown author’s writing to see if they match. For example, they look for phrases common in certain geographic areas (like “Duck Duck Gray Duck” instead of “Duck Duck Goose”) or certain age groups. They can also look at the syntax of the authors to determine which “proper” English rules the authors break and how often they use different types of punctuation. They can even look for things as simple as spelling errors consistent between authors. <br> <br>
+
+We were interested in trying to mimic this while adding elements of probability and statistics. This would allow us opportunities to quantify how similar or different certain writings are. We could find basic statistics for different written works, such as mean sentence and word length, as well as finding the most frequently used words by authors. From these distributions, we were curious if we could create a way to determine authorship of a piece of writing with some degree of certainty. <br> <br>
+
+To do this, we relied heavily on word and sentence tokenization in Python. We used the Natural Language Toolkit, or NLTK, which has built-in tokenization functions. NLTK uses an algorithm similar to the Penn TreeBank Tokenization method, which is built off of white space tokenization. It has a large bank of information to tokenize, so it recognizes contractions, hyphenated words, and punctuation as singular tokens instead of breaking them up like white space tokenization would do. This allowed us to isolate words or punctuation, as well as finding the length of sentences and words.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Demonstration</h2>
+							<p>From this background information, we created a demonstration of smaller writings. This demonstration shows the techniques of NLP using NLTK and what we can find using these techniques. See the full demonstration here: <a href = "https://colab.research.google.com/drive/1pGokZWMbFWPAj7A_3OEwbq0KjFSZlbXa?usp=sharing">NLP Demonstration</p>
+							
+						</section>
+						<section>
+							<h2>Contact Information</h2>
+							<dl class="alt">
+								<dt>LinkedIn</dt>
+								<dd> <a href="https://www.linkedin.com/in/mary-patsy-b514b021b/">Mary Patsy</a></dd>
+								<dt>Email</dt>
+								<dd><a href="#">patsy001@d.umn.edu</a></dd>
+							</dl>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
